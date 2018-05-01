@@ -1,0 +1,16 @@
+{
+  "name": "LED",
+  "wifi": {
+    "ssid": "<YOUR_SSID>",
+    "password": "<YOUR PASSWORD>"
+  },
+  "mqtt": {
+    "server": "<YOUR_BROKER_IP>",
+    "port": 1883,
+    "username": "ESP_LED",
+    "password": "",
+    "topic_publish": "led",
+    "topic_subscribe": "led",
+    "topic_metadata": "metadata/led"
+  }
+}
